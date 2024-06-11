@@ -1,0 +1,122 @@
+body{
+    background-color: #003466 ;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+#gridicon_parent{
+    display: block;
+    overflow: hidden;
+}
+.gridicon{
+    width: auto;
+    height: auto;
+    float: right;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 15px 15px;
+    grid-row-gap: 10px;
+    grid-column-gap:10px;
+    cursor: pointer;
+}
+.icon{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+}
+#tableicon_parent{
+    display: block;
+    overflow: hidden;
+}
+.tableSymbol{
+    width: auto;
+    height: auto;
+    float: right;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap:10px;
+    cursor: pointer;
+}
+.Icon{
+    background-color: white;
+    width: 40px;
+    height: 15px;
+}
+
+
+.grid-container {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+
+}
+.grid-item{
+    background-color: white;
+}
+.placeHolder img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.details p{
+    margin-left: 40px;
+    line-height: 9px;
+}
+.edit{
+    
+    float: right;
+    padding: 0px 10px 10px 0px;
+
+   
+}
+
+.edit a{
+    color: blue;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#table_parent{
+    width: 1000px;
+    margin: auto;
+}
+.tablehead {
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-column-gap: 15px;
+    margin-top: 10px;
+    
+
+}
+.tableheadcolm{
+    background-color: white;
+    text-align: center;
+    border:#003466 ; 
+}
+
+
+.tablerow {
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-column-gap: 15px;
+    margin-top: 10px;
+    
+
+}
+.tablecolm{
+    background-color: white;
+    text-align: center;
+    border:#003466 ; 
+}
+.tablecolm img{
+    overflow: hidden;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
